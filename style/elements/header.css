@@ -1,0 +1,45 @@
+.container .header{
+    display: flex;
+}
+
+.container .container-fill .header h1{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    
+}
+
+.container .container-fill .header .navi{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 31%;
+}
+
+.container .container-fill .header .navi ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.container .container-fill .header .navi ul .active{
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+    padding-bottom: 7px;
+}
+
+.container .container-fill .header .navi ul li{
+    margin: 0 30px;
+}
+
+.container .container-fill .header .navi img{
+    margin: 10px 20px;
+}
+
+.container .container-fill .header .navi ul li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}

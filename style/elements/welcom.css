@@ -1,0 +1,94 @@
+.container .container-fill h2{
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin: 80px 0 0 0;
+}
+
+.container .container-fill p{
+    font-size: 150px;
+    line-height: 140px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 60px auto;
+    width: 70%;
+}
+
+.container .container-fill hr{
+    margin-top: 10px;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+}
+
+
+.container .container-fill .btn{
+    margin-top: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid #ffffff;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container .container-fill .anim{
+    display: flex;
+    justify-content: center;
+}
+
+.container .container-fill .anim .section{
+    width: 280px;
+    margin: 170px 15px 0 15px;
+}
+
+.container .container-fill .anim .section .proces{
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.container .container-fill .anim .section .proces .proces-fill{
+    height: 100%;
+    width: 0;
+    background-color: red;
+}
+
+.container .container-fill .anim .section .proces:hover .proces-fill{
+    animation: slise 1s forwards;
+}
+
+.container .container-fill .anim .section .text{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.container .container-fill .anim .section .text .num{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+@keyframes slise {
+    from {
+    width: 0;
+  }
+  to {
+    width: 25%; 
+  }
+}

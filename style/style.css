@@ -1,0 +1,52 @@
+@import url(./elements/header.css);
+@import url(./elements/welcom.css);
+@import url(./elements/story.css);
+@import url(./elements/rectangle.css);
+@import url(./elements/amazing.css);
+@import url(./elements/unique.css);
+@import url(./elements/service.css);
+@import url(./elements/rectangle2.css);
+@import url(./elements/meet.css);
+@import url(./elements/kolo.css);
+@import url(./elements/some.css);
+@import url(./elements/clients.css);
+@import url(./elements/blog.css);
+@import url(./elements/map.css);
+@import url(./elements/footer.css);
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 1520px;
+    height: 1000px;
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../img/Layer\ 15.png);
+    background-size: cover;
+}
+
+.container1{
+    width: 1520px;
+    height: 270px;
+    background-color: #95e1d3;
+}
+
+.container3{
+    width: 1520px;
+}
+
+.container-fill{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}

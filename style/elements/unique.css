@@ -1,0 +1,20 @@
+.unique{
+    height: 860px;
+    background-image: linear-gradient(rgba(217, 217, 217, 0.8), rgba(217, 217, 217, 0.8)), url(../../img/White.png);
+    background-size: cover;
+}
+
+.unique .unique-fill{
+    position: relative;
+}
+
+.unique .unique-fill .phone{
+    position: relative;
+    left: 27%;
+}
+
+.unique .unique-fill .phone2{
+    position: absolute;
+    bottom: -8%;
+    right: 22%;
+}

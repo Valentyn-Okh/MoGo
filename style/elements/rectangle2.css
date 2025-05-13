@@ -1,0 +1,46 @@
+.rectan{
+    height: 290px;
+    background-color: #f8f8f8;
+}
+
+#rectan3{
+    background-color: #ffffff;
+    margin-bottom: 130px;
+}
+
+.rectan .rectan-fill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+
+.rectan .rectan-fill img, .right{
+    margin-top: 55px;
+}
+
+.rectan .rectan-fill .right .par3{
+    width: 770px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+.rectan .rectan-fill .right .name .namehr{
+    float: left;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 15px;
+}
+
+.rectan .rectan-fill .right .name-p{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    margin-left: 10%;
+}

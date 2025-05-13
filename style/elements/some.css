@@ -1,0 +1,109 @@
+.container3 .containerimg{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.container3 .containerimg h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container3 .containerimg p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container3 .containerimg .contimg .cont1-1{
+    height: 100%;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .containerimg .leftimg{
+    display: flex;
+    width: 965px;
+    flex-wrap: wrap;
+}
+
+.container3 .containerimg .leftimg .contimg{
+    width: 380px;
+    height: 389px;
+    background-image: url(../../img/work1.png);
+}
+
+.container3 .containerimg .leftimg #cont-img2{
+    background-image: url(../../img/work2.png);
+}
+
+.container3 .containerimg .leftimg #cont-img3{
+    background-image: url(../../img/work3.png);
+}
+
+.container3 .containerimg .leftimg #cont-img4{
+    background-image: url(../../img/work4.png);
+}
+
+.container3 .containerimg .centerimg #cont-img5{
+    width: 380px;
+    height: 779px;
+    background-image: url(../../img/work5.png);
+    background-size: cover;
+}
+
+.container3 .containerimg .leftimg1 #cont-img6{
+    width: 380px;
+    height: 389px;
+    background-image: url(../../img/work6.png);
+}
+
+.container3 .containerimg .leftimg1 #cont-img7{
+    width: 380px;
+    height: 389px;
+    background-image: url(../../img/work7.png);
+}
+
+.container3 .containerimg .leftimg .contimg:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work1.png);
+}
+
+.container3 .containerimg .leftimg #cont-img2:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work2.png);
+}
+
+.container3 .containerimg .leftimg #cont-img3:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work3.png);
+}
+
+.container3 .containerimg .leftimg #cont-img4:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work4.png);
+}
+
+.container3 .containerimg .centerimg #cont-img5:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work5.png);
+}
+
+.container3 .containerimg .leftimg1 #cont-img6:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work6.png);
+}
+
+.container3 .containerimg .leftimg1 #cont-img7:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/work7.png);
+}
+
+.container3 .containerimg .contimg .cont1-1:hover{
+    opacity: 1;
+}

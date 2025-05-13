@@ -1,0 +1,85 @@
+.container3 .meet-fill .images-meet{
+    display: flex;
+    gap: 30px;
+}
+
+.container3 .meet-fill .images-meet .imgmeet{
+    margin-top: 100px;
+    width: 378px;
+    height: 468px;
+    background-image: url(../../img/mee1.png);
+}
+
+.container3 .meet-fill .images-meet .imgmeet .infor img{
+    background-color: #fce38a;
+    width: 56px;
+    height: 56px;
+}
+
+.container3 .meet-fill .images-meet .imgmeet .infor #colr{
+    background-color: rgb(244, 139, 130);
+}
+
+.container3 .meet-fill .images-meet .imgmeet .infor{
+    opacity: 0;
+    width: 378px;
+    height: 468px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .meet-fill .images-meet  .imgmeet:hover {
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/mee1.png);
+    box-shadow: 10px 10px #95e1d3;
+    transition: all 0.7s;
+    transform:translate(-10px);
+}
+
+.container3 .meet-fill .images-meet .imgmeet .infor:hover{
+    opacity: 1;
+}
+
+.container3 .meet-fill .images-meet #image-2{
+    background-image: url(../../img/mee2.png);
+}
+
+.container3 .meet-fill .images-meet #image-2:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/mee2.png);
+}
+
+.container3 .meet-fill .images-meet #image-3{
+    background-image: url(../../img/mee3.png);
+}
+
+.container3 .meet-fill .images-meet #image-3:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/mee3.png);
+}
+
+.container3 .meet-fill .peoplename{
+    display: flex;
+    justify-content: center;
+    gap: 260px;
+    margin-bottom: 110px;
+}
+
+.container3 .meet-fill .peoplename .namep h3{
+    font-size: 14px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.container3 .meet-fill .peoplename .namep p{
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    text-align: center;
+}

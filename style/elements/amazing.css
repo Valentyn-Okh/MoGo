@@ -1,0 +1,42 @@
+.container3 .fill .paragraf1{
+    margin-top: 100px;
+}
+
+.container3 .fill .tile{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container3 .fill .tile img{
+    float: left;
+}
+
+.container3 .fill .tile .tile-h3, .tile-p{
+    margin-left: 65px;
+}
+
+.container3 .fill .tile .tile-h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-top: 0;
+}
+
+.container3 .fill .tile .tile-p{
+    width: 290px;
+    /* height: 81px; */
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.fill #tile-marg{
+    margin-top: 45px;
+    margin-bottom: 130px;
+}

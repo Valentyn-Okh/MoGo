@@ -1,0 +1,96 @@
+.container3 .container-fill .paragraf1{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Kaushan Script";
+    text-align: center;
+    margin: 90px 0 30px 0;
+}
+
+.container3 .container-fill h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.container3 .container-fill .stor{
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.container3 .container-fill .paragraf2{
+    margin: 0 auto;
+    width: 960px;
+    height: 130px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.container3 .container-fill .images-sl{
+    display: flex;
+    gap: 33px;
+    margin-bottom: 115px;
+}
+
+.container3 .container-fill .images-sl .images{
+    margin-top: 100px;
+    width: 378px;
+    height: 250px;
+    background-image: url(../../img/1.png);
+}
+
+.container3 .container-fill .images-sl #img2{
+    background-image: url(../../img/2.png);
+}
+
+.container3 .container-fill .images-sl #img3{
+    background-image: url(../../img/3.png);
+}
+
+.container3 .container-fill .images-sl .images .inf{
+    opacity: 0;
+    width: 378px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .container-fill .images-sl .images .inf p{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.container3 .container-fill .images-sl .images:hover {
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/1.png);
+    box-shadow: 10px 10px #95e1d3;
+    transition: all 0.7s;
+    transform:translate(-10px);
+    opacity: 1;
+}
+
+.container3 .container-fill .images-sl .images .inf:hover{
+    opacity: 1;
+}
+
+.container3 .container-fill .images-sl #img2:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/2.png);
+}
+
+.container3 .container-fill .images-sl #img3:hover{
+    background-image: linear-gradient(rgba(244, 139, 130, 0.7), rgba(251, 227, 137, 0.7)), url(../../img/3.png);
+}

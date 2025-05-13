@@ -1,0 +1,27 @@
+.container1 .container-fill{
+    display: flex;
+}
+
+.container1 .container-fill .box{
+    width: 240px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.container1 .container-fill .box span{
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.container1 .container-fill .box p{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}

@@ -1,0 +1,63 @@
+.blog{
+    margin-bottom: 120px;
+}
+
+.blog .blog-fill .bloginfo{
+    display: flex;
+    gap: 30px;
+}
+
+.blog .blog-fill .bloginfo .info-blog{
+    width: 379px;
+    position: relative;
+}
+
+.blog .blog-fill .bloginfo .info-blog h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.blog .blog-fill .bloginfo .info-blog p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.blog .blog-fill .bloginfo .info-blog .number{
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+}
+
+.blog .blog-fill .bloginfo .info-blog .box-blog{
+    width: 60px;
+    height: 70px;
+    background-color: #7ae0dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 42%;
+    left: -10px;
+}
+
+.blog .blog-fill .bloginfo .info-blog .box-blog .day span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.blog .blog-fill .bloginfo .info-blog .box-blog .day{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-style: italic;
+}
