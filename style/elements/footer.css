@@ -50,6 +50,12 @@ footer .footer-fill .footerbox .footer-left hr{
     background-color: #e5e5e5;
 }
 
+footer .footer-fill .footerbox .footer-left .follow ul{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
 footer .footer-fill .footerbox .footer-left .follow span{
     font-size: 15px;
     line-height: 24px;
@@ -102,7 +108,7 @@ footer .footer-fill .footerbox .footer-center h3{
 footer .footer-fill .footerbox .footer-center .footblog{
     display: flex;
     gap: 30px;
-    margin: 20px 0;
+    margin: 22px 0;
 }
 
 footer .footer-fill .footerbox .footer-center .footblog .p1-1{
